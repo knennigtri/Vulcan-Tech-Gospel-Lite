@@ -3,19 +3,40 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+    <uses-sdk android:minSdkVersion="8"
+         android:targetSdkVersion="15" />
 
-    <application android:name="com.nennig.vtglibrary.VTGLibraryApplication" 
+    <application android:name="com.nennig.vtglibrary.managers.VTGLibraryApplication" 
         android:icon="@drawable/ic_launcher" 
-        android:label="@string/app_name">
+        android:label="VTG Lite"
+        android:theme="@android:style/Theme.Holo.Light" >
 
-        <activity android:name="com.nennig.vtglibrary.MainActivity"
-                  android:label="@string/app_name">
-            <intent-filter android:label="@string/app_name" >
+        <activity android:name="com.nennig.vtglibrary.activities.MainActivity"
+                  android:label="Vulcan Tech Gospel Lite">
+            <intent-filter android:label="VTG Lite" >
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nennig.vtglibrary.activities.SelectorActivity"
+            android:label="Vulcan Tech Gospel Lite" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nennig.vtglibrary.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.nennig.vtglibrary.activities.DetailViewActivity"
+            android:label="Vulcan Tech Gospel Lite" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nennig.vtglibrary.activities.PropActivity" />
+        </activity>
+        <activity android:name="com.nennig.vtglibrary.activities.VideoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nennig.vtglibrary.activities.DetailViewActivity" />
         </activity>
     </application>
 
