@@ -7,7 +7,7 @@
          android:targetSdkVersion="15" />
 
     <application android:name="com.nennig.vtglibrary.managers.VTGLibraryApplication" 
-        android:icon="@drawable/ic_launcher" 
+        android:icon="@drawable/ic_launcher"
         android:label="VTG Lite"
         android:theme="@android:style/Theme.Holo.Light" >
 
@@ -31,7 +31,7 @@
             android:label="Vulcan Tech Gospel Lite" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nennig.vtglibrary.activities.PropActivity" />
+                android:value="com.nennig.vtglibrary.activities.SelectorActivity" />
         </activity>
         <activity android:name="com.nennig.vtglibrary.activities.VideoActivity" >
             <meta-data
