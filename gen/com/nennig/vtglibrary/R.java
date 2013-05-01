@@ -9,10 +9,8 @@ package com.nennig.vtglibrary;
 
 public final class R {
     public static final class array {
-        public static final int hand_dropdown=0x7f090001;
-        public static final int pdf_list=0x7f090002;
-        public static final int prop_dropdown=0x7f090000;
-        public static final int prop_selector=0x7f090003;
+        public static final int pdf_list=0x7f090000;
+        public static final int prop_selector=0x7f090001;
     }
     public static final class attr {
         /** <p>Must be one of the following constant values.</p>
@@ -82,41 +80,42 @@ containing a value of this type.
     }
     public static final class id {
         public static final int circle=0x7f050000;
-        public static final int detail_customMoveDraw=0x7f050009;
+        public static final int detail_customMoveDraw=0x7f05000a;
         public static final int detail_handLabel=0x7f050005;
         public static final int detail_handText=0x7f050007;
-        public static final int detail_moveName=0x7f05000a;
+        public static final int detail_moveName=0x7f05000b;
         public static final int detail_moveType=0x7f050004;
         public static final int detail_poiLabel=0x7f050006;
         public static final int detail_poiText=0x7f050008;
         public static final int diamond=0x7f050001;
         public static final int line=0x7f050003;
-        public static final int main_3113_button=0x7f05000c;
-        public static final int main_button2=0x7f05000d;
-        public static final int main_button3=0x7f05000e;
-        public static final int main_image=0x7f05000b;
-        public static final int main_pdf_list=0x7f05001e;
-        public static final int menu_about=0x7f05001f;
-        public static final int menu_change_log=0x7f050023;
-        public static final int menu_donate=0x7f050020;
-        public static final int menu_facebook=0x7f050021;
-        public static final int menu_rate_this=0x7f050022;
-        public static final int prop_combo_frames=0x7f050013;
-        public static final int prop_hand_label=0x7f05000f;
-        public static final int prop_hand_spinner=0x7f050011;
-        public static final int prop_icon_lone=0x7f050014;
-        public static final int prop_icon_ltwo=0x7f050017;
-        public static final int prop_poi_label=0x7f050010;
-        public static final int prop_poi_spinner=0x7f050012;
-        public static final int prop_pos_0=0x7f050015;
-        public static final int prop_pos_1=0x7f050018;
-        public static final int prop_pos_2=0x7f050016;
-        public static final int prop_pos_3=0x7f050019;
+        public static final int main_3113_button=0x7f05000d;
+        public static final int main_button2=0x7f05000e;
+        public static final int main_button3=0x7f05000f;
+        public static final int main_image=0x7f05000c;
+        public static final int main_pdf_list=0x7f05001f;
+        public static final int menu_about=0x7f050020;
+        public static final int menu_change_log=0x7f050024;
+        public static final int menu_donate=0x7f050021;
+        public static final int menu_facebook=0x7f050022;
+        public static final int menu_rate_this=0x7f050023;
+        public static final int prop_combo_frames=0x7f050014;
+        public static final int prop_hand_label=0x7f050010;
+        public static final int prop_hand_spinner=0x7f050012;
+        public static final int prop_icon_lone=0x7f050015;
+        public static final int prop_icon_ltwo=0x7f050018;
+        public static final int prop_poi_label=0x7f050011;
+        public static final int prop_poi_spinner=0x7f050013;
+        public static final int prop_pos_0=0x7f050016;
+        public static final int prop_pos_1=0x7f050019;
+        public static final int prop_pos_2=0x7f050017;
+        public static final int prop_pos_3=0x7f05001a;
         public static final int square=0x7f050002;
-        public static final int videoView=0x7f05001c;
-        public static final int video_moveName=0x7f05001d;
-        public static final int video_move_hand_prop=0x7f05001b;
-        public static final int video_prop_selector=0x7f05001a;
+        public static final int videoView=0x7f05001d;
+        public static final int video_moveName=0x7f05001e;
+        public static final int video_move_hand_prop=0x7f05001c;
+        public static final int video_prop_selector=0x7f05001b;
+        public static final int view_flipper=0x7f050009;
     }
     public static final class layout {
         public static final int activity_detail_view=0x7f030000;
@@ -124,7 +123,8 @@ containing a value of this type.
         public static final int activity_selector=0x7f030002;
         public static final int activity_video=0x7f030003;
         public static final int four_icon_view=0x7f030004;
-        public static final int view_pdfs=0x7f030005;
+        public static final int spinner_item=0x7f030005;
+        public static final int view_pdfs=0x7f030006;
     }
     public static final class menu {
         public static final int general=0x7f0b0000;
@@ -174,14 +174,10 @@ containing a value of this type.
     }
     public static final class string {
         public static final int app_name=0x7f080000;
-        public static final int ext_prop0=0x7f080018;
-        public static final int ext_prop1=0x7f080019;
-        public static final int ext_prop2=0x7f08001a;
-        public static final int ext_prop3=0x7f08001b;
-        public static final int global_so=0x7f08000e;
-        public static final int global_ss=0x7f08000c;
-        public static final int global_to=0x7f08000d;
-        public static final int global_ts=0x7f08000b;
+        public static final int ext_prop0=0x7f080014;
+        public static final int ext_prop1=0x7f080015;
+        public static final int ext_prop2=0x7f080016;
+        public static final int ext_prop3=0x7f080017;
         public static final int main_1111_button=0x7f080003;
         public static final int main_3113_button=0x7f080002;
         public static final int main_download_button=0x7f080004;
@@ -191,21 +187,21 @@ containing a value of this type.
         public static final int menu_facebook=0x7f080007;
         public static final int menu_help=0x7f080006;
         public static final int menu_rate_this=0x7f080008;
-        public static final int menu_settings=0x7f08001c;
-        public static final int prop0=0x7f080014;
-        public static final int prop1=0x7f080015;
-        public static final int prop2=0x7f080016;
-        public static final int prop3=0x7f080017;
-        public static final int search_list_results_for=0x7f08001f;
-        public static final int text_hand=0x7f080010;
-        public static final int text_prop=0x7f08000f;
-        public static final int title_activity_detail_zoom=0x7f08001d;
+        public static final int menu_settings=0x7f080018;
+        public static final int prop0=0x7f080010;
+        public static final int prop1=0x7f080011;
+        public static final int prop2=0x7f080012;
+        public static final int prop3=0x7f080013;
+        public static final int search_list_results_for=0x7f08001b;
+        public static final int text_hand=0x7f08000c;
+        public static final int text_prop=0x7f08000b;
+        public static final int title_activity_detail_zoom=0x7f080019;
         public static final int title_activity_main=0x7f080001;
-        public static final int title_activity_search_list=0x7f080020;
-        public static final int title_activity_video=0x7f08001e;
-        public static final int vtg_pdf1=0x7f080011;
-        public static final int vtg_pdf2=0x7f080012;
-        public static final int vtg_pdf3=0x7f080013;
+        public static final int title_activity_search_list=0x7f08001c;
+        public static final int title_activity_video=0x7f08001a;
+        public static final int vtg_pdf1=0x7f08000d;
+        public static final int vtg_pdf2=0x7f08000e;
+        public static final int vtg_pdf3=0x7f08000f;
     }
     public static final class style {
         public static final int AppTheme=0x7f0a0000;
@@ -222,9 +218,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #VTGMove_pinEndShape com.nennig.vulcan.tech.gospel.lite:pinEndShape}</code></td><td></td></tr>
-           <tr><td><code>{@link #VTGMove_primaryColor com.nennig.vulcan.tech.gospel.lite:primaryColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #VTGMove_secondaryColor com.nennig.vulcan.tech.gospel.lite:secondaryColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #VTGMove_pinEndShape com.nennig.vtglibrary.lite:pinEndShape}</code></td><td></td></tr>
+           <tr><td><code>{@link #VTGMove_primaryColor com.nennig.vtglibrary.lite:primaryColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #VTGMove_secondaryColor com.nennig.vtglibrary.lite:secondaryColor}</code></td><td></td></tr>
            </table>
            @see #VTGMove_pinEndShape
            @see #VTGMove_primaryColor
@@ -234,7 +230,7 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.nennig.vulcan.tech.gospel.lite.R.attr#pinEndShape}
+          <p>This symbol is the offset where the {@link com.nennig.vtglibrary.lite.R.attr#pinEndShape}
           attribute's value can be found in the {@link #VTGMove} array.
 
 
@@ -253,7 +249,7 @@ containing a value of this type.
         */
         public static final int VTGMove_pinEndShape = 2;
         /**
-          <p>This symbol is the offset where the {@link com.nennig.vulcan.tech.gospel.lite.R.attr#primaryColor}
+          <p>This symbol is the offset where the {@link com.nennig.vtglibrary.lite.R.attr#primaryColor}
           attribute's value can be found in the {@link #VTGMove} array.
 
 
@@ -268,7 +264,7 @@ containing a value of this type.
         */
         public static final int VTGMove_primaryColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.nennig.vulcan.tech.gospel.lite.R.attr#secondaryColor}
+          <p>This symbol is the offset where the {@link com.nennig.vtglibrary.lite.R.attr#secondaryColor}
           attribute's value can be found in the {@link #VTGMove} array.
 
 
