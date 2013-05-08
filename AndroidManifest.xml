@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nennig.vtglibrary.lite"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="com.nennig.vulcan.tech.gospel"
+    android:versionCode="2"
+    android:versionName="2.0">
 
     <uses-sdk android:minSdkVersion="8"
-         android:targetSdkVersion="15" />
+         android:targetSdkVersion="11" />
 
     <application android:name="com.nennig.vtglibrary.managers.VTGLibraryApplication" 
         android:icon="@drawable/ic_launcher"
@@ -12,7 +12,7 @@
         android:theme="@android:style/Theme.Holo.Light" >
 
         <activity android:name="com.nennig.vtglibrary.activities.MainActivity"
-                  android:label="Vulcan Tech Gospel Lite">
+                  android:label="VTG Lite">
             <intent-filter android:label="VTG Lite" >
                 <action android:name="android.intent.action.MAIN" />
 
