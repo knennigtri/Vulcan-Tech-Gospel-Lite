@@ -8,6 +8,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application android:name="com.nennig.vtglibrary.managers.VTGLibraryApplication" 
         android:icon="@drawable/ic_launcher"
@@ -41,7 +42,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nennig.vtglibrary.activities.DetailViewActivity" />
         </activity>
-        <activity android:name="com.nennig.vtglibrary.activities.SurveyActivity" >
+        <activity android:name="com.nennig.vtglibrary.activities.HTMLActivity" >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.nennig.vtglibrary.activities.MainActivity" />
